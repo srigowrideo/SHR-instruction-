@@ -1,0 +1,37 @@
+SHR CX,1
+MOV CL,05H
+SHR AX,CL
+
+
+
+
+
+SAR instruction
+
+SAR BL,1
+MOV CL,04H
+SAR DX,CL 
+
+
+Rol instruction
+ROL CX, 1
+MOV CL,03H
+ROL BL,CL
+
+
+ROR instruction
+ROR CX, 1
+MOV CL ,03H
+ROR BL ,CL 
+
+
+RCL instructions
+RCL CX, 1
+MOV CL,04H
+RCL AL,CL 
+
+
+RCR instructions
+RCR CX, 1
+MOV CL,04H
+RCR AL,CL 
